@@ -1,3 +1,5 @@
-##React Interview Question to build an Infinite File Explorer
+# 🌟 React Infinite File Explorer
 
-Build a similar file explorer like you see in VS code.
+## 📁 Project Overview
+
+Build a dynamic and infinite file explorer similar to what you see in Visual Studio Code. 
