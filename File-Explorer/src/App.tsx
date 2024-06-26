@@ -1,15 +1,15 @@
-import { useState } from 'react'
-import './App.css'
-import explorer from './data/data'
+import { useState } from "react";
+import "./App.css";
+import explorer from "./data/data";
+import Folder from "./components/Folder";
 
 function App() {
-const[explorerData, setExplorerData] = useState(explorer)
-console.log(explorerData);
+  const [explorerData, setExplorerData] = useState(explorer);
   return (
-   <div>
-    {}
-   </div>
-  )
+    <div>
+      <Folder explorerData={explorerData} />
+    </div>
+  );
 }
 
-export default App
+export default App;
