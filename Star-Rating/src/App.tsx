@@ -3,7 +3,7 @@ import "./App.css";
 import Star from "./components/Star";
 
 function App() {
-  const starArray = [0, 0, 0, 0, 0];
+  const starArray = [1, 2, 3, 4, 5];
   const [rating, setRating] = useState<number>(0);
   const [hoverRating, setHoverRating] = useState<number>(0);
 
